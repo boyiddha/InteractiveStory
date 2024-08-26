@@ -1,4 +1,5 @@
 # Interactive Storytelling Platform with Branching Narratives.
+### Utilized:  HTML, CSS, PHP, MySQL
 # STEPS:
 1. At first instal XAMPP to run this project
 2. ### Database name must bo storytelling
