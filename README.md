@@ -44,12 +44,12 @@
 ### Database Name: storytelling
 
 ![tree](https://github.com/user-attachments/assets/30e9a127-e30a-47c3-ae01-e425aff199b6)
-
+# Database Tables
 <ol>
   <li>
     <ul><li> <b>users : </b></li> </ul>
     <table>
-      <caption> Readers & Writers </caption>
+      <caption> Readers & Writers </caption><br>
       <tr>
         <th>name</th>
         <th>email</th>
@@ -85,12 +85,12 @@
   </li>
   <li>
     <ul><li> <b>choices : </b></li> </ul>
-    <caption>Left Tree of a Story: </caption>
-    <caption>id=> unique id auto-incremented from 500</caption>
-    <captoin>node_id=> parent node id of this node</captoin>
-    <caption>first_option=> story path decision content</caption>
-    <caption>set_decision=> check whether this node expand it's child or not; by default FALSE means not assign it's child yet</caption>
-    <caption>end_node=> Assign True if it is the end of this path; by default FALSE value is assigned. Assign value True means this is the end of the path </caption>
+    <caption>Left Tree of a Story: </caption><br>
+    <caption>id=> unique id auto-incremented from 500</caption><br>
+    <captoin>node_id=> parent node id of this node</captoin><br>
+    <caption>first_option=> story path decision content</caption><br>
+    <caption>set_decision=> check whether this node expand it's child or not; by default FALSE means not assign it's child yet</caption><br>
+    <caption>end_node=> Assign True if it is the end of this path; by default FALSE value is assigned. Assign value True means this is the end of the path </caption><br>
     <table>
       <tr>
         <th>id</th>
@@ -125,12 +125,12 @@
   <li>
     <ul><li> <b>choices2 : </b></li> </ul>
       <table>
-        <captoin>Right Tree of Tree</captoin>
-    <caption>id=> unique id auto-incremented from 5000</caption>
-    <captoin>node_id=> parent node id of this node</captoin>
-    <caption>second_option=> story path decision content</caption>
-    <caption>set_decision=> check whether this node expand it's child or not; by default FALSE means not assign it's child yet</caption>
-    <caption>end_node=> Assign True if it is the end of this path; by default FALSE value is assigned. Assign value True means this is the end of the path </caption>
+        <captoin>Right Tree of Tree</captoin><br>
+    <caption>id=> unique id auto-incremented from 5000</caption><br>
+    <captoin>node_id=> parent node id of this node</captoin><br>
+    <caption>second_option=> story path decision content</caption><br>
+    <caption>set_decision=> check whether this node expand it's child or not; by default FALSE means not assign it's child yet</caption><br>
+    <caption>end_node=> Assign True if it is the end of this path; by default FALSE value is assigned. Assign value True means this is the end of the path </caption><br>
           <tr>
           <th>id</th>
            <th>node_id</th>
