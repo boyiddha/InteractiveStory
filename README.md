@@ -42,6 +42,7 @@
 
 # Database:
 ### Database Name: storytelling
+
 ![tree](https://github.com/user-attachments/assets/30e9a127-e30a-47c3-ae01-e425aff199b6)
 
 <ol>
@@ -60,9 +61,9 @@
         <td>12345</td>
       </tr> 
           <tr>
-        <th>Pronob Mozumder</th>
-        <th>pornob@yahoo.com</th>
-        <th>34567</th>
+        <td>Pronob Mozumder</td>
+        <td>pornob@yahoo.com</td>
+        <td>34567</td>
       </tr> 
     </table>
   </li>
