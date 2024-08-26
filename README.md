@@ -5,7 +5,7 @@
 2. ### Database name must be storytelling
 3. ### Import the database SQL file which exists in the "DB_SQL" folder
 
-#### $${\color{red} It supports only a single story!!!!}$$  
+#### <span style="color: red;">It supports one story only</span>
 # Future Development
 1. Support multiple stories.
 2. Readers interact with their stories, such as which options are most popular, and a nice-to-have feature that tracks how long users spend on each section.
