@@ -39,3 +39,127 @@
   </li>
 </ol>
 
+
+# Database:
+### Database Name: storytelling
+![tree](https://github.com/user-attachments/assets/30e9a127-e30a-47c3-ae01-e425aff199b6)
+
+<ol>
+  <li>
+    <ul><li> <b>users : </b></li> </ul>
+    <table>
+      <caption> Readers & Writers </caption>
+      <tr>
+        <th>name</th>
+        <th>email</th>
+        <th>password</th>
+      </tr> 
+          <tr>
+        <td>Boyiddhanath Roy</td>
+        <td>boyiddha.hstu.ece@gmail.com</td>
+        <td>12345</td>
+      </tr> 
+          <tr>
+        <th>Pronob Mozumder</th>
+        <th>pornob@yahoo.com</th>
+        <th>34567</th>
+      </tr> 
+    </table>
+  </li>
+  <li>
+    <ul><li><b>story : </b> </li> </ul>
+        <table>
+          <caption>Story Title:</caption>
+      <tr>
+        <th>id</th>
+        <th>title</th>
+        <th>content</th>
+      </tr> 
+          <tr>
+        <td>1</td>
+        <td>Decision Tree </td>
+        <td>ABCDEFG</td>
+      </tr> 
+    </table>
+  </li>
+  <li>
+    <ul><li> <b>choices : </b></li> </ul>
+    <caption>Left Tree of a Story: </caption>
+    <caption>id=> unique id auto-incremented from 500</caption>
+    <captoin>node_id=> parent node id of this node</captoin>
+    <caption>first_option=> story path decision content</caption>
+    <caption>set_decision=> check whether this node expand it's child or not; by default FALSE means not assign it's child yet</caption>
+    <caption>end_node=> Assign True if it is the end of this path; by default FALSE value is assigned. Assign value True means this is the end of the path </caption>
+    <table>
+      <tr>
+        <th>id</th>
+         <th>node_id</th>
+         <th>first_option</th>
+         <th>set_decision</th>
+         <th>end_node</th>
+      </tr>
+      <tr>
+        <td>500</td>
+         <td>1</td>
+         <td>B</td>
+         <td>1</td>
+         <td>0</td>
+      </tr>
+            <tr>
+        <td>501</td>
+         <td>500</td>
+         <td>D</td>
+         <td>1</td>
+         <td>1</td>
+      </tr>
+            <tr>
+        <td>502</td>
+         <td>500</td>
+         <td>E</td>
+         <td>1</td>
+         <td>1</td>
+      </tr>
+    </table>
+  </li>
+  <li>
+    <ul><li> <b>choices2 : </b></li> </ul>
+      <table>
+        <captoin>Right Tree of Tree</captoin>
+    <caption>id=> unique id auto-incremented from 5000</caption>
+    <captoin>node_id=> parent node id of this node</captoin>
+    <caption>second_option=> story path decision content</caption>
+    <caption>set_decision=> check whether this node expand it's child or not; by default FALSE means not assign it's child yet</caption>
+    <caption>end_node=> Assign True if it is the end of this path; by default FALSE value is assigned. Assign value True means this is the end of the path </caption>
+          <tr>
+          <th>id</th>
+           <th>node_id</th>
+           <th>second_option</th>
+           <th>set_decision</th>
+           <th>end_node</th>
+        </tr>
+      <tr>
+        <td>5000</td>
+         <td>1</td>
+         <td>C</td>
+         <td>1</td>
+         <td>0</td>
+      </tr>
+            <tr>
+        <td>5001</td>
+         <td>5000</td>
+         <td>F</td>
+         <td>1</td>
+         <td>1</td>
+      </tr>
+            <tr>
+        <td>5002</td>
+         <td>5000</td>
+         <td>G</td>
+         <td>1</td>
+         <td>1</td>
+      </tr>
+    </table>
+
+  </li>
+  
+</ol>
