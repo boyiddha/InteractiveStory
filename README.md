@@ -3,15 +3,15 @@
 # STEPS:
 1. At first install XAMPP to run this project
 2. ### Database name must be storytelling
-3. ### Import the database SQL file which exist in the "DB_SQL" folder
+3. ### Import the database SQL file which exists in the "DB_SQL" folder
 
-
+#### $${\color{red} It supports only a single story!!!!}$$  
 # Future Development
 1. Support multiple stories.
 2. Readers interact with their stories, such as which options are most popular, and a nice-to-have feature that tracks how long users spend on each section.
 
 # Descriptions:
-<h3>This platform is developed so that we can read and create interactive stories. It supports only a single story!!!!</h3>
+<h3>This platform is developed so that we can read and create interactive stories.</h3>
 <ol>
   <li>Create Story Section
       <ul style="list-style-type🔴">
